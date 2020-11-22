@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+  margin: 5vh 5vw;
+}
+
+h2 {
+  background: lightblue;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(79, 142, 146);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: rgb(177, 250, 255);
+  height: 50px;
+  width: 70px;
+  border: none;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(90, 174, 180);
+}
+
+button:focus {
+  outline: 0;
+}
